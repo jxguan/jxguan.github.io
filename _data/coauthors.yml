@@ -1,34 +1,38 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"zhandry":
+  - firstname: ["Mark", "M."]
+    url: https://mzhandry.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"wichs":
+  - firstname: ["Daniel", "D."]
+    url: https://www.khoury.northeastern.edu/home/wichs/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"boneh":
+  - firstname: ["Dan", "D."]
+    url: https://crypto.stanford.edu/~dabo/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"ma":
+  - firstname: ["Fermi", "F."]
+    url: https://fermima.com/
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"bartusek":
+  - firstname: ["James", "J."]
+    url: https://sites.google.com/view/jamesbartusek
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"montgomery":
+  - firstname: ["Hart", "H."]
+    url: https://scholar.google.com/citations?user=ePPyg5MAAAAJ
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"korb":
+  - firstname: ["Alexis", "A."]
+    url: https://dblp.org/pid/272/2390.html
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"sahai":
+  - firstname: ["Amit", "A."]
+    url: https://web.cs.ucla.edu/~sahai/
+
+"datta":
+  - firstname: ["Pratish", "P."]
+    url: https://scholar.google.com/citations?user=pUozQ_wAAAAJ

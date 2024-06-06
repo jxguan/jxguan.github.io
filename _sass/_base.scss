@@ -275,6 +275,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: "Roboto", sans-serif;
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -1122,4 +1123,8 @@ ninja-keys {
 
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
+}
+
+.chinese-text {
+  font-family: "Roboto", KaiTi, "楷体", STKaiti, "华文楷体", sans-serif;
 }

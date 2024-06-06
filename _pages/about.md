@@ -1,25 +1,28 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Faculty Fellow at <a href="https://www.nyu.edu">New York University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: profile.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><b>jiaxin [at] guan [dot] io</b></p>
+    <p>Warren Weaver Hall #409</p>
+    <p>251 Mercer Street</p>
+    <p>New York, NY 10012</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a faculty fellow at [New York University](https://www.nyu.edu), hosted by [Marshall Ball](https://cs.nyu.edu/~mmb586/index.html) and [Yevgeniy Dodis](https://cs.nyu.edu/~dodis).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on exploring the space-constrained aspects of cryptography, including but not limited to the Bounded Storage Model, incompressible cryptography, space lower bounds, etc., though I am broadly interested in other topics in cryptography and theoretical computer science in general.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I earned my PhD from [Princeton University](https://www.princeton.edu), where I was fortunate to be advised by [Mark Zhandry](https://mzhandry.github.io). I graduated with a B.S. with Honors and a M.S. from [Stanford University](https://www.stanford.edu), with [Dan Boneh](https://crypto.stanford.edu/~dabo) as my advisor.
+
+When I'm not working, I mostly enjoy photography, [theater](https://www.cellunova.org), and cooking.

@@ -1,113 +1,125 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@inproceedings{TCC:GuaWicZha23,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  title={Multi-Instance Randomness Extraction and Security against Bounded-Storage Mass Surveillance},
+  author={Guan, Jiaxin and Wichs, Daniel and Zhandry, Mark},
+  booktitle={Theory of Cryptography Conference},
+  pages={93--122},
+  year={2023},
+  organization={Springer},
+  eprint={2023/409},
+  conference={TCC},
+  abstract={Consider a state-level adversary who observes and stores large amounts of encrypted data from all users on the Internet, but does not have the capacity to store it all. Later, it may target certain "persons of interest" in order to obtain their decryption keys. We would like to guarantee that, if the adversary`s storage capacity is only (say) 1% of the total encrypted data size, then even if it can later obtain the decryption keys of arbitrary users, it can only learn something about the contents of (roughly) 1%$ of the ciphertexts, while the rest will maintain full security. This can be seen as an extension of <i>incompressible cryptography</i> (Dziembowski CRYPTO '06,  Guan, Wichs and Zhandry EUROCRYPT '22) to the <i>multi-user</i> setting. We provide solutions in both the symmetric key and public key setting with various trade-offs in terms of computational assumptions and efficiency. <br/><br/>As the core technical tool, we study an information-theoretic problem which we refer to as "multi-instance randomness extraction." Suppose X<sub>1</sub>, ..., X<sub>t</sub> are correlated random variables whose total joint min-entropy rate is &alpha;, but we know nothing else about their individual entropies. We choose $t$ random and independent seeds S<sub>1</sub>, ..., S<sub>t</sub> and attempt to individually extract some small amount of randomness Y<sub>i</sub> = Ext(X<sub>i</sub>; S<sub>i</sub>) from each X<sub>i</sub>. We'd like to say that roughly an &alpha;-fraction of the extracted outputs Y<sub>i</sub> should be indistinguishable from uniform even given all the remaining extracted outputs and all the seeds. We show that this indeed holds for specific extractors based on Hadamard and Reed-Muller codes.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{TCC:BGMZ18,
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  title={Return of GGH15: Provable Security against Zeroizing Attacks},
+  author={Bartusek, James and Guan, Jiaxin and Ma, Fermi and Zhandry, Mark},
+  booktitle={Theory of Cryptography Conference},
+  pages={544--574},
+  year={2018},
+  organization={Springer},
+  eprint={2018/511},
+  conference={TCC},
+  abstract={The GGH15 multilinear maps have served as the foundation for a number of cutting-edge cryptographic proposals. Unfortunately, many schemes built on GGH15 have been explicitly broken by so-called "zeroizing attacks", which exploit leakage from honest zero-test queries. The precise settings in which zeroizing attacks are possible have remained unclear. Most notably, none of the current indistinguishability obfuscation (iO) candidates from GGH15 have any formal security guarantees against zeroizing attacks.<br/><br/>In this work, we demonstrate that all known zeroizing attacks on GGH15 implicitly construct algebraic relations between the results of zero-testing and the encoded plaintext elements. We then propose a "GGH15 zeroizing model" as a new general framework which greatly generalizes known attacks.<br/><br/>Our second contribution is to describe a new GGH15 variant, which we formally analyze in our GGH15 zeroizing model. We then construct a new iO candidate using our multilinear map, which we prove secure in the GGH15 zeroizing model. This implies resistance to all known zeroizing strategies. The proof relies on the Branching Program Un-Annihilatability (BPUA) Assumption of Garg et al. [TCC 16-B] (which is implied by PRFs in NC<sup>1</sup> secure against P/Poly) and the complexity-theoretic p-Bounded Speedup Hypothesis of Miles et al. [ePrint 14] (a strengthening of the Exponential Time Hypothesis).}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@inproceedings{EC:GuaZha19,
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  title={Simple Schemes in the Bounded Storage Model},
+  author={Guan, Jiaxin and Zhandry, Mark},
+  booktitle={Advances in Cryptology--EUROCRYPT 2019: 38th Annual International Conference on the Theory and Applications of Cryptographic Techniques, Darmstadt, Germany, May 19--23, 2019, Proceedings, Part III 38},
+  pages={500--524},
+  year={2019},
+  organization={Springer},
+  eprint={2019/507},
+  conference={EUROCRYPT},
+  abstract={The bounded storage model promises unconditional security proofs against computationally unbounded adversaries, so long as the adversary's space is bounded.  In this work, we develop simple new constructions of two-party key agreement, bit commitment, and oblivious transfer in this model.  In addition to simplicity, our constructions have several advantages over prior work, including an improved number of rounds and enhanced correctness.  Our schemes are based on Raz's lower bound for learning parities.}
 }
 
-@book{przibram1967letters,
+@inproceedings{TCC:GuaZha21,
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  title={Disappearing Cryptography in the Bounded Storage Model},
+  author={Guan, Jiaxin and Zhandry, Mark},
+  booktitle={Theory of Cryptography: 19th International Conference, TCC 2021, Raleigh, NC, USA, November 8--11, 2021, Proceedings, Part II 19},
+  pages={365--396},
+  year={2021},
+  organization={Springer},
+  eprint={2021/406},
+  conference={TCC},
+  abstract={In this work, we study disappearing cryptography in the bounded storage model. Here, a component of the transmission, say a ciphertext, a digital signature, or even a program, is streamed bit by bit. The stream is so large for anyone to store in its entirety, meaning the transmission effectively disappears once the stream stops.<br/><br/>We first propose the notion of online obfuscation, capturing the goal of disappearing programs in the bounded storage model. We give a negative result for VBB security in this model, but propose candidate constructions for a weaker security goal, namely VGB security. We then demonstrate the utility of VGB online obfuscation, showing that it can be used to generate disappearing ciphertexts and signatures. All of our applications are <i>not</i> possible in the standard model of cryptography, regardless of computational assumptions used.}
+}
+
+@article{EPRINT:GuaZha21b,
+  bibtex_show={true},
+  title={Iterated Inhomogeneous Polynomials},
+  author={Guan, Jiaxin and Zhandry, Mark},
+  journal={Cryptology ePrint Archive},
+  year={2021},
+  eprint={2021/1399},
+  conference={CFail},
+  abstract={Let p be a polynomial, and let p<sup>(i)</sup>(x) be the result of iterating the polynomial i times, starting at an input x. The case where p(x) is the homogeneous polynomial x<sup>2</sup> has been extensively studied in cryptography. Due to its associated group structure, iterating this polynomial gives rise to a number of interesting cryptographic applications such as time-lock puzzles and verifiable delay functions. On the other hand, the associated group structure leads to quantum attacks on the applications.<br/><br/>In this work, we consider whether <i>inhomogeneous</i> polynomials, such as 2x<sup>2</sup>+3x+1, can have useful cryptographic applications. We focus on the case of polynomials mod 2<sup>n</sup>, due to some useful mathematical properties. The natural group structure no longer exists, so the quantum attacks but also applications no longer immediately apply. We nevertheless show classical polynomial-time attacks on analogs of hard problems from the homogeneous setting. We conclude by proposing new computational assumptions relating to these inhomogeneous polynomials, with cryptographic applications.}
+}
+
+@inproceedings{EC:GuaWicZha22,
+  bibtex_show={true},
+  title={Incompressible Cryptography},
+  author={Guan, Jiaxin and Wichs, Daniel and Zhandry, Mark},
+  booktitle={Annual International Conference on the Theory and Applications of Cryptographic Techniques},
+  pages={700--730},
+  year={2022},
+  organization={Springer},
+  eprint={2021/1679},
+  conference={EUROCRYPT},
+  abstract={Incompressible encryption allows us to make the ciphertext size flexibly large and ensures that an adversary learns nothing about the encrypted data, even if the decryption key later leaks, unless she stores essentially the entire ciphertext. Incompressible signatures can be made arbitrarily large and ensure that an adversary cannot produce a signature on any message, even one she has seen signed before, unless she stores one of the signatures essentially in its entirety.<br/><br/>In this work, we give simple constructions of both incompressible public-key encryption and signatures under minimal assumptions. Furthermore, large incompressible ciphertexts (resp. signatures) can be decrypted (resp. verified) in a streaming manner with low storage. In particular, these notions strengthen the related concepts of disappearing encryption and signatures, recently introduced by Guan and Zhandry (TCC 2021), whose previous constructions relied on sophisticated techniques and strong, non-standard assumptions. We extend our constructions to achieve an optimal "rate", meaning the large ciphertexts (resp. signatures) can contain almost equally large messages, at the cost of stronger assumptions.}
+}
+
+@inproceedings{C:GuaKorSah23,
+  bibtex_show={true},
+  title={Streaming Functional Encryption},
+  author={Guan, Jiaxin and Korb, Alexis and Sahai, Amit},
+  booktitle={Annual International Cryptology Conference},
+  pages={433--463},
+  year={2023},
+  organization={Springer},
+  eprint={2022/1599},
+  conference={CRYPTO},
+  abstract={We initiate the study of streaming functional encryption (sFE) which is designed for scenarios in which data arrives in a streaming manner and is computed on in an iterative manner as the stream arrives. Unlike in a standard functional encryption (FE) scheme, in an sFE scheme, we (1) do not require the entire data set to be known at encryption time and (2) allow for partial decryption given only a prefix of the input. More specifically, in an sFE scheme, we can sequentially encrypt each data point x<sub>i</sub> in a stream of data x = x<sub>1</sub>...x<sub>n</sub> as it arrives, without needing to wait for all $n$ values. We can then generate function keys for streaming functions which are stateful functions that take as input a message x<sub>i</sub> and a state st<sub>i</sub> and output a value y<sub>i</sub> and the next state st<sub>i+1</sub>. For any k &le; n, a user with a function key for a streaming function f can learn the first k output values y<sub>1</sub>...y<sub>k</sub> where (y<sub>i</sub>, st<sub>i+1</sub>) = f(x<sub>i</sub>, st<sub>i</sub>) and st<sub>1</sub> = &#10178; given only ciphertexts for the first k elements x<sub>1</sub>...x<sub>k</sub>. <br/><br/> In this work, we introduce the notion of sFE and show how to construct it from FE. In particular, we show how to achieve a secure sFE scheme for P/Poly from a compact, secure FE scheme for P/Poly, where our security notion for sFE is similar to standard FE security except that we require all function queries to be made before the challenge ciphertext query. Furthermore, by combining our result with the FE construction of Jain, Lin, and Sahai (STOC, 2022), we show how to achieve a secure sFE scheme for P/Poly from the polynomial hardness of well-studied assumptions.}
+}
+
+@phdthesis{guan2023cryptography,
+  bibtex_show={true},
+  title={Cryptography against Space-Bounded Adversaries},
+  author={Guan, Jiaxin},
+  year={2023},
+  school={Princeton University},
+  pdf={dissertation.pdf},
+  abstract={Traditionally in cryptography, we consider adversaries that are time-bounded by making certain computational assumptions. In this thesis, I study the scenario where the adversaries are space-bounded, i.e. the adversary can only use up to a certain amount of memory bits. Under these scenarios, we can achieve either unconditional security properties or neverbefore-possible results. <br/> <br/> First, I start off with Maurer’s Bounded Storage Model. It is a model where the adversary abides by a certain memory bound throughout the entire attack. Under this model, I show simple constructions of a key-agreement protocol, a commitment scheme, and an oblivious transfer protocol, all based on Raz’s lower bound on parity learning. These constructions have several advantages over prior work, including enhanced correctness and an improved and optimal number of rounds. <br/> <br/> Subsequently, I show that if we combine computational assumptions with the bounded storage model, we can achieve results that are not possible in the standard model. I define a new object named Online Obfuscation, which is analogous to a Virtual Grey-Box Obfuscation in the Bounded Storage Model, and show how to use it to construct disappearing encryption and signature schemes where the ciphertext and the signature effectively "disappear" after transmission. <br/> <br/> Lastly, I make the observation that in the Bounded Storage Model, the memory bound on the adversary is enforced throughout the entire game. One can imagine a variant where the bound is only enforced for long-term storage, allowing the adversary to use an arbitrary amount of memory during the transmission phase. I define incompressible cryptography to capture this intuition and show constructions using randomness extractors and other cryptographic tools. Furthermore, I show that under the multi-user setting, we can still achieve desired incompressible security if we simply replace the randomness extractor with a special "multi-instance randomness extractor".}
+
+}
+
+@inproceedings{EC:BonGuaZha23,
+  bibtex_show={true},
+  title={A Lower Bound on the Length of Signatures Based on Group Actions and Generic Isogenies},
+  author={Boneh, Dan and Guan, Jiaxin and Zhandry, Mark},
+  booktitle={Annual International Conference on the Theory and Applications of Cryptographic Techniques},
+  pages={507--531},
+  year={2023},
+  organization={Springer},
+  eprint={2023/250},
+  conference={EUROCRYPT},
+  abstract={We give the first black box lower bound for isogeny-based protocols that can be described as group actions. We show that, for a large class of signature schemes making black box use of a (potentially non-abelian) group action, the signature length must be &Omega;(&lambda;<sup>2</sup>/log &lambda;). Our class of signatures generalizes all known signatures that derive security exclusively from the group action, and our lower bound matches the state of the art, showing that the signature length cannot be improved without deviating from the group action framework.}
+}
+
+@article{EPRINT:DGKS24,
+  bibtex_show={true},
+  title={Adaptively Secure Streaming Functional Encryption},
+  author={Datta, Pratish and Guan, Jiaxin and Korb, Alexis and Sahai, Amit},
+  journal={Cryptology ePrint Archive},
+  year={2024},
+  eprint={2024/355},
+  abstract={This paper introduces the first adaptively secure streaming functional encryption (sFE) scheme for P/Poly. sFE stands as an evolved variant of traditional functional encryption (FE), catering specifically to contexts with vast and/or dynamically evolving data sets. sFE is designed for applications where data arrives in a streaming fashion and is computed on in an iterative manner as the stream arrives. Unlike standard FE, in sFE: (1) encryption is possible without knowledge of the full data set, (2) partial decryption is possible given only a prefix of the input. <br/> <br/> Guan, Korb, and Sahai introduced this concept in their recent publication [CRYPTO 2023], where they constructed an sFE scheme for P/Poly using a compact standard FE scheme for the same. However, their sFE scheme only achieved semi-adaptive-function-selective security, which constrains the adversary to obtain all functional keys prior to seeing any ciphertext for the challenge stream. This limitation severely limits the scenarios where sFE can be applied, and therefore fails to provide a suitable theoretical basis for sFE. <br/> <br/> In contrast, the adaptive security model empowers the adversary to arbitrarily interleave requests for functional keys with ciphertexts related to the challenge stream. Guan, Korb, and Sahai identified achieving adaptive security for sFE as the key question left open by their work. <br/> <br/> We resolve this open question positively by constructing an adaptively secure sFE construction from indistinguishability obfuscation for P/Poly and injective PRGs. By combining our work with that of Jain, Lin, and Sahai [STOC 2021, EUROCRYPT 2022], we obtain the first adaptively secure sFE scheme for P/Poly based on sub-exponential hardness of well-studied computational problems.}
 }
