@@ -14,15 +14,16 @@ display_categories: [New York University, Princeton University, Stanford Univers
 <!-- pages/teaching.md -->
 #### New York University
 
-As a Faculty Fellow / Assistant Professor, I have taught the following courses at NYU:
+As a Faculty Fellow / Assistant Professor, I will be teaching / have taught the following courses at NYU:
+ - [CSCI-UA.0310: Basic Algorithms](https://cs.nyu.edu/courses/fall24/CSCI-UA.0310-007/index.html) (Fall 2024)
  - [CSCI-UA.0310: Basic Algorithms](https://cs.nyu.edu/courses/spring24/CSCI-UA.0310-005/index.html) (Spring 2024)
  - [CSCI-UA.0310: Basic Algorithms](https://cs.nyu.edu/courses/fall23/CSCI-UA.0310-007/index.html) (Fall 2023)
 
 #### Princeton University
 
 I’ve served as an assistant in instruction (AI) for the following courses at Princeton:
- - [COS 533: Advanced Cryptography](https://www.cs.princeton.edu/~mzhandry/2021-Spring-COS533/index.html) (Spring 2021)
- - [COS 433: Cryptography](https://www.cs.princeton.edu/~mzhandry/2020-Spring-COS433/index.html) (Spring 2020)
+ - [COS 533: Advanced Cryptography](https://mzhandry.github.io/courses/2021-Spring-COS533/) (Spring 2021)
+ - [COS 433: Cryptography](https://mzhandry.github.io/courses/2020-Fall-COS433/) (Spring 2020)
  - [COS 445: Economics and Computation](https://www.cs.princeton.edu/~smattw/Teaching/cos445sp19.htm) (Spring 2019)
  - [COS 432: Information Security](https://www.cs.princeton.edu/courses/archive/fall18/cos432/index.html) (Fall 2018)
 
