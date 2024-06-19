@@ -380,7 +380,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {
@@ -1132,5 +1132,5 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .chinese-text {
-  font-family: "Roboto", "KaiTi", "楷体", "STKaiti", "华文楷体", "KaiTi_GB2312", "BiauKai", sans-serif;
+  font-family: "Roboto", KaiTi, "楷体", STKaiti, "华文楷体", KaiTi_GB2312, BiauKai, sans-serif;
 }
