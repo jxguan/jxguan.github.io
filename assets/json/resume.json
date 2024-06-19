@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Jiaxin Guan",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "jiaxin@guan.io",
+    "phone": "(650) 796-1302",
+    "url": "https://www.guan.io",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "251 Mercer Street",
+      "postalCode": "NY 10012",
+      "city": "New York",
       "countryCode": "US",
-      "region": "California"
+      "region": "New York"
     },
     "profiles": [
       {
@@ -47,15 +47,26 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Princeton University, Princeton, USA",
+      "location": "Princeton, USA",
+      "url": "https://www.princeton.edu/",
+      "area": "Cryptography",
+      "studyType": "Ph.D.",
+      "startDate": "2017-09-01",
+      "endDate": "2023-07-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Stanford University, Stanford, USA",
+      "location": "Stanford, USA",
+      "url": "https://www.stanford.edu/",
+      "area": "Computer Science",
+      "studyType": "M.S., B.S.",
+      "startDate": "2013-09-01",
+      "endDate": "2017-06-12",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
