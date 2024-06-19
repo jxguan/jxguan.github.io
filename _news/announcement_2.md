@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My paper "Streaming Functional Encryption" will appear at CRYPTO 2023. Joint work with Alexis Korb and Amit Sahai.
+My paper "Streaming Functional Encryption" will appear at CRYPTO 2023. Joint work with [Alexis Korb](https://dblp.org/pid/272/2390.html) and [Amit Sahai](https://web.cs.ucla.edu/~sahai/).

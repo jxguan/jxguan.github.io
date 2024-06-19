@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My paper "Multi-Instance Randomness Extraction and Security against Bounded-Storage Mass Surveillance" is accepted to TCC 2023. Joint work with Daniel Wichs and Mark Zhandry.
+My paper "Multi-Instance Randomness Extraction and Security against Bounded-Storage Mass Surveillance" is accepted to TCC 2023. Joint work with [Daniel Wichs](https://www.khoury.northeastern.edu/home/wichs/) and [Mark Zhandry](https://mzhandry.github.io/).
