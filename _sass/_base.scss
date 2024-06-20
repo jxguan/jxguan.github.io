@@ -1145,9 +1145,10 @@ ninja-keys::part(ninja-input-wrapper) {
 
 @font-face {
   font-family: "SiyaoKaiti";
-  src: url(/assets/fonts/canger_siyao.ttf) format('truetype'),
-       url(/assets/fonts/canger_siyao.woff2) format('woff2'),
-       url(/assets/fonts/canger_siyao.woff) format('woff');
+  src:
+    url(/assets/fonts/canger_siyao.ttf) format('truetype'),
+    url(/assets/fonts/canger_siyao.woff2) format('woff2'),
+    url(/assets/fonts/canger_siyao.woff) format('woff');
   font-weight: normal;
   font-style: normal;
 }
