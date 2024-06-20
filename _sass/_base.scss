@@ -1143,6 +1143,11 @@ ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
 
+@font-face {
+    font-family: "SiyaoKaiti";
+    src: url(/assets/fonts/canger_siyao.ttf);
+}
+
 .chinese-text {
-  font-family: "Roboto", "adobe-kaiti-std", "KaiTi", "楷体", "STKaiti", "华文楷体", sans-serif;
+  font-family: "Roboto", "SiyaoKaiti", "KaiTi", "楷体", "STKaiti", "华文楷体", sans-serif;
 }
