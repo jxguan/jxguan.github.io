@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jxguan.github.io/sitemap.xml
+Sitemap: https://www.guan.io/sitemap.xml
