@@ -26,20 +26,12 @@
     {
       "name": "Cryptography",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Information-Theoretic Cryptography",
-        "Space-Bounded Cryptography",
-        "Post-Quantum Cryptography",
-        "Functional Encryption"
-      ]
+      "keywords": ["Information-Theoretic Cryptography", "Space-Bounded Cryptography", "Post-Quantum Cryptography", "Functional Encryption"]
     },
     {
       "name": "Theoretical Computer Science",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Coding Theory",
-        "Time-Space Lower Bounds"
-      ]
+      "keywords": ["Coding Theory", "Time-Space Lower Bounds"]
     }
   ],
   "education": [
@@ -217,50 +209,31 @@
     "reviews": [
       {
         "name": "CRYPTO",
-        "years": [
-          "18"
-        ]
+        "years": ["18"]
       },
       {
         "name": "EUROCRYPT",
-        "years": [
-          "22",
-          "23"
-        ]
+        "years": ["22", "23"]
       },
       {
         "name": "TCC",
-        "years": [
-          "21",
-          "22",
-          "23",
-          "24"
-        ]
+        "years": ["21", "22", "23", "24"]
       },
       {
         "name": "ASIACRYPT",
-        "years": [
-          "19",
-          "20"
-        ]
+        "years": ["19", "20"]
       },
       {
         "name": "STOC",
-        "years": [
-          "22"
-        ]
+        "years": ["22"]
       },
       {
         "name": "ITCS",
-        "years": [
-          "21"
-        ]
+        "years": ["21"]
       },
       {
         "name": "CCC",
-        "years": [
-          "24"
-        ]
+        "years": ["24"]
       }
     ]
   },

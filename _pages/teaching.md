@@ -12,6 +12,7 @@ display_categories: [New York University, Princeton University, Stanford Univers
 ---
 
 <!-- pages/teaching.md -->
+
 #### New York University
 
 As a Faculty Fellow / Assistant Professor, I will be teaching / have taught the following courses at NYU:
