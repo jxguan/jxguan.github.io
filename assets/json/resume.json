@@ -96,6 +96,15 @@
   ],
   "talks": [
     {
+      "title": "On Sequential Functions and Fine-Grained Cryptography",
+      "venues": [
+        {
+          "name": "CRYPTO 2024 Conference Talk",
+          "date": "Aug 2024"
+        }
+      ]
+    },
+    {
       "title": "Multi-Instance Randomness Extraction and Security against Bounded-Storage Mass Surveillance",
       "url": "https://youtu.be/Ms853nfSAh8?si=cJfn2aJb97niZAPm&t=2630",
       "venues": [
@@ -248,7 +257,7 @@
       "url": "https://cims.nyu.edu",
       "startDate": "2023-09-01",
       "endDate": "Present",
-      "summary": "Teaching the undergraduate algorithms course and conducting research on various topics on cryptography.",
+      "summary": "Teaching the undergraduate algorithms course and conducting research on various areas of cryptography.",
       "highlights": []
     },
     {

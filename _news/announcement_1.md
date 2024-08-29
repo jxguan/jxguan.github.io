@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-In September 2023, I will join NYU Courant as a Faculty Fellow / Assistant Professor.
+In September 2023, I will join NYU Courant as an Assistant Professor / Faculty Fellow.
