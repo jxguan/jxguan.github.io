@@ -219,6 +219,12 @@
     }
   ],
   "professional activities": {
+    "pc": [
+      {
+        "name": "CRYPTO",
+        "years": ["25"]
+      }
+    ],
     "reviews": [
       {
         "name": "CRYPTO",
@@ -242,7 +248,7 @@
       },
       {
         "name": "ITCS",
-        "years": ["21"]
+        "years": ["21", "24"]
       },
       {
         "name": "CCC",

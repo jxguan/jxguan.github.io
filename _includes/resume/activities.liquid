@@ -1,4 +1,28 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+<div class="card-text font-weight-light list-groups list-group-flush">
+  <div class="list-group col-md-6">
+    <table class="table-cv list-group-table">
+      <tbody>
+        <tr>
+          <td class="list-group-category-icon">
+            <i class="fa-solid fa-users"></i>
+          </td>
+
+          <td colspan="1" class="list-group-category">Program Committees</td>
+        </tr>
+        {% for item in data[1].pc %}
+          <tr>
+            <td></td>
+            <td class="list-group-name">
+              <b>{{ item.name }}</b>
+              {% for year in item.years %}
+                '{{ year }}
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
   <div class="list-group col-md-6">
     <table class="table-cv list-group-table">
       <tbody>
@@ -9,6 +33,7 @@
 
           <td colspan="1" class="list-group-category">Conference Reviews</td>
         </tr>
+
         {% for item in data[1].reviews %}
           <tr>
             <td></td>
@@ -23,4 +48,4 @@
       </tbody>
     </table>
   </div>
-</ul>
+</div>
