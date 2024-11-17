@@ -17,6 +17,7 @@ display_categories: [New York University, Princeton University, Stanford Univers
 
 As an Assistant Professor / Faculty Fellow, I will be teaching / have taught the following courses at NYU:
 
+- [CSCI-UA.0310: Basic Algorithms](https://cs.nyu.edu/courses/spring25/CSCI-UA.0310-005/index.html) (Spring 2025)
 - [CSCI-UA.0310: Basic Algorithms](https://cs.nyu.edu/courses/fall24/CSCI-UA.0310-007/index.html) (Fall 2024)
 - [CSCI-UA.0310: Basic Algorithms](https://cs.nyu.edu/courses/spring24/CSCI-UA.0310-005/index.html) (Spring 2024)
 - [CSCI-UA.0310: Basic Algorithms](https://cs.nyu.edu/courses/fall23/CSCI-UA.0310-007/index.html) (Fall 2023)

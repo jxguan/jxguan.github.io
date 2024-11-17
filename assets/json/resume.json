@@ -31,7 +31,7 @@
     {
       "name": "Theoretical Computer Science",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Coding Theory", "Time-Space Lower Bounds"]
+      "keywords": ["Coding Theory", "Time-Space Lower Bounds", "Complexity", "Meta-Complexity"]
     }
   ],
   "education": [
@@ -223,6 +223,10 @@
       {
         "name": "CRYPTO",
         "years": ["25"]
+      },
+      {
+        "name": "IACR CiC",
+        "years": ["25"]
       }
     ],
     "reviews": [
@@ -259,7 +263,7 @@
   "work": [
     {
       "name": "Courant Institute of Mathematical Sciences, New York University",
-      "position": "Faculty Fellow / Assistant Professor",
+      "position": "Assistant Professor / Faculty Fellow",
       "url": "https://cims.nyu.edu",
       "startDate": "2023-09-01",
       "endDate": "Present",
