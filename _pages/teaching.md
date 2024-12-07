@@ -22,6 +22,8 @@ As an Assistant Professor / Faculty Fellow, I will be teaching / have taught the
 - [CSCI-UA.0310: Basic Algorithms](https://cs.nyu.edu/courses/spring24/CSCI-UA.0310-005/index.html) (Spring 2024)
 - [CSCI-UA.0310: Basic Algorithms](https://cs.nyu.edu/courses/fall23/CSCI-UA.0310-007/index.html) (Fall 2023)
 
+You'll need an NYU login to access the course websites. If you don't have one, you can visit this [mirror site](http://ba.guan.io) for reference.
+
 #### Princeton University
 
 I’ve served as an assistant in instruction (AI) for the following courses at Princeton:

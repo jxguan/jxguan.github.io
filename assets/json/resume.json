@@ -1,11 +1,12 @@
 {
   "basics": {
     "name": "Jiaxin Guan",
+    "pronouns": "He / Him",
     "label": "",
     "image": "",
     "email": "jiaxin@guan.io",
     "phone": "(650) 796-1302",
-    "url": "https://www.guan.io",
+    "url": "https://www.guan.io",    
     "summary": "",
     "location": {
       "address": "251 Mercer Street",
@@ -96,7 +97,17 @@
   ],
   "talks": [
     {
+      "title": "Space Jammed: Cryptography against Space-Bounded Adversaries",
+      "venues": [
+        {
+          "name": "Queens College Q4C Colloquium",
+          "date": "Dec 2024"
+        }
+      ]
+    },
+    {
       "title": "On Sequential Functions and Fine-Grained Cryptography",
+      "url": "https://www.youtube.com/watch?v=7AHjgqQP434",
       "venues": [
         {
           "name": "CRYPTO 2024 Conference Talk",
@@ -260,6 +271,10 @@
       }
     ]
   },
+  "teaching experience": [
+    {
+    }
+  ],
   "work": [
     {
       "name": "Courant Institute of Mathematical Sciences, New York University",
@@ -267,7 +282,7 @@
       "url": "https://cims.nyu.edu",
       "startDate": "2023-09-01",
       "endDate": "Present",
-      "summary": "Teaching the undergraduate algorithms course and conducting research on various areas of cryptography.",
+      "summary": "Teach the undergraduate algorithms course and conduct research on various areas of cryptography.",
       "highlights": []
     },
     {
@@ -297,7 +312,7 @@
       "summary": "Implemented a keyword search scheme for encrypted data on Keybase File System.",
       "highlights": []
     },
-    {
+    /*{
       "name": "Computer Science Department, Stanford University",
       "position": "Senior Section Leader",
       "url": "https://cs.stanford.edu",
@@ -305,7 +320,7 @@
       "endDate": "2016-03-01",
       "summary": "Assisted instructors for introductory Java and C++ programming courses through grading, leading bi-weekly helper sessions, and teaching weekly sections.",
       "highlights": []
-    },
+    },*/
     {
       "name": "Google Inc.",
       "position": "Software Engineering Intern",

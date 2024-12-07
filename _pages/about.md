@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 I am an Assistant Professor / Faculty Fellow at [New York University](https://cs.nyu.edu), hosted by [Marshall Ball](https://cs.nyu.edu/~mmb586/index.html) and [Yevgeniy Dodis](https://cs.nyu.edu/~dodis).
 
-My research focuses on exploring the space-constrained aspects of cryptography, including but not limited to the Bounded Storage Model, incompressible cryptography, space lower bounds, etc., though I am broadly interested in other topics in cryptography and theoretical computer science in general.
+My research focuses on **the space aspects of cryptography**, exploring scenarios where space is a limited resource for either adversaries or honest users. This includes, but is not limited to, areas such as the Bounded Storage Model, incompressible cryptography, streaming functional encryption, and space lower bounds. I am also broadly interested in other topics in cryptography and theoretical computer science in general.
 
 I earned my PhD from [Princeton University](https://cs.princeton.edu), where I was fortunate to be advised by [Mark Zhandry](https://mzhandry.github.io). I graduated with a B.S. with Honors and a M.S. from [Stanford University](https://cs.stanford.edu), with [Dan Boneh](https://crypto.stanford.edu/~dabo) as my advisor.
 
