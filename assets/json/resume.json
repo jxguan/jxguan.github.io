@@ -6,7 +6,7 @@
     "image": "",
     "email": "jiaxin@guan.io",
     "phone": "(650) 796-1302",
-    "url": "https://www.guan.io",    
+    "url": "https://www.guan.io",
     "summary": "",
     "location": {
       "address": "251 Mercer Street",
@@ -271,9 +271,7 @@
       }
     ]
   },
-  "teaching experience": [
-    {}
-  ],
+  "teaching experience": [{}],
   "work": [
     {
       "name": "Courant Institute of Mathematical Sciences, New York University",
