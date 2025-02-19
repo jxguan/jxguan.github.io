@@ -27,4 +27,4 @@ I earned my PhD from [Princeton University](https://cs.princeton.edu), where I w
 
 When I'm not working, I mostly enjoy photography, [theater](https://www.cellunova.org), and cooking.
 
-**I am looking for faculty positions to start in Fall 2025.**
+**I am looking for faculty and industry positions to start in Fall 2025.**
