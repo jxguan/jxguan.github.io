@@ -100,6 +100,14 @@
       "title": "Space Jammed: Cryptography against Space-Bounded Adversaries",
       "venues": [
         {
+          "name": "National University of Singapore",
+          "date": "Mar 2025"
+        },
+        {
+          "name": "New Jersey Institute of Technology",
+          "date": "Mar 2025"
+        },
+        {
           "name": "Queens College Q4C Colloquium",
           "date": "Dec 2024"
         }
@@ -251,11 +259,11 @@
       },
       {
         "name": "TCC",
-        "years": ["21", "22", "23", "24"]
+        "years": ["21", "22", "23", "24", "25"]
       },
       {
         "name": "ASIACRYPT",
-        "years": ["19", "20"]
+        "years": ["19", "20", "25"]
       },
       {
         "name": "STOC",
@@ -268,18 +276,31 @@
       {
         "name": "CCC",
         "years": ["24"]
+      },
+      {
+        "name": "RANDOM",
+        "years": ["25"]
       }
     ]
   },
   "teaching experience": [{}],
   "work": [
     {
+      "name": "Zellic",
+      "position": "Applied Cryptographer",
+      "url": "https://www.zellic.io",
+      "startDate": "2025-06-16",
+      "endDate": "Present",
+      "summary": "Audit and research cutting-edge cryptographic protocols and blockchain systems.",
+      "highlights": []
+    },
+    {
       "name": "Courant Institute of Mathematical Sciences, New York University",
       "position": "Assistant Professor / Faculty Fellow",
       "url": "https://cims.nyu.edu",
       "startDate": "2023-09-01",
-      "endDate": "Present",
-      "summary": "Teach the undergraduate algorithms course and conduct research on various areas of cryptography.",
+      "endDate": "2025-06-13",
+      "summary": "Taught the undergraduate algorithms course and conducted research on various areas of cryptography.",
       "highlights": []
     },
     {
