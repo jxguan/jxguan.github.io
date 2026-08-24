@@ -82,20 +82,17 @@
     }
   ],
   "publications": [
-    {
-      "name": "On Sequential Functions and Fine-Grained Cryptography",
-      "publisher": "CRYPTO 2024",
-      "url": "",
-      "authors": "Hart Montgomery"
-    },
-    {
-      "name": "Adaptively Secure Streaming Functional Encryption",
-      "publisher": "",
-      "url": "https://eprint.iacr.org/2024/355",
-      "authors": "Pratish Datta, Alexis Korb, and Amit Sahai"
-    }
   ],
   "talks": [
+    {
+      "title": "(Multi-Input) FE for Randomized Functionalities, Revisited",
+      "venues": [
+        {
+          "name": "TCC 2025 Conference Talk",
+          "date": "Dec 2025"
+        }
+      ]
+    },
     {
       "title": "Space Jammed: Cryptography against Space-Bounded Adversaries",
       "venues": [
@@ -251,7 +248,7 @@
     "reviews": [
       {
         "name": "CRYPTO",
-        "years": ["18"]
+        "years": ["18", "26"]
       },
       {
         "name": "EUROCRYPT",
@@ -263,7 +260,7 @@
       },
       {
         "name": "ASIACRYPT",
-        "years": ["19", "20", "25"]
+        "years": ["19", "20", "25", "26"]
       },
       {
         "name": "STOC",

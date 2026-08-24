@@ -24,7 +24,7 @@
 
 "korb":
   - firstname: ["Alexis", "A."]
-    url: https://dblp.org/pid/272/2390.html
+    url: https://alexiskorb.me/
 
 "sahai":
   - firstname: ["Amit", "A."]
@@ -37,3 +37,11 @@
 "dodis":
   - firstname: ["Yevgeniy", "Y."]
     url: https://cs.nyu.edu/~dodis/
+
+"hall":
+  - firstname: ["Peter", "P."]
+    url: https://peterhall10.github.io/PeterHall/
+
+"ball":
+  - firstname: ["Marshall", "M."]
+    url: https://cs.nyu.edu/~mmb586/index.html
