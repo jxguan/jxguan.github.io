@@ -32,7 +32,12 @@
     {
       "name": "Theoretical Computer Science",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Coding Theory", "Time-Space Lower Bounds", "Complexity", "Meta-Complexity"]
+      "keywords": ["Coding Theory", "Time-Space Lower Bounds", "Complexity", "Pseudorandomness", "Meta-Complexity"]
+    },
+    {
+      "name": "AI Safety",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Model Alignment", "Agentic Identity", "LLM Watermarking"]
     }
   ],
   "education": [
@@ -81,7 +86,7 @@
       "courses": []
     }
   ],
-  "publications": [],
+  "publications": [{}],
   "talks": [
     {
       "title": "(Multi-Input) FE for Randomized Functionalities, Revisited",
@@ -251,7 +256,7 @@
       },
       {
         "name": "EUROCRYPT",
-        "years": ["22", "23"]
+        "years": ["22", "23", "26", "27"]
       },
       {
         "name": "TCC",
@@ -279,6 +284,26 @@
       }
     ]
   },
+  "awards": [
+    {
+      "title": "Outstanding Paper Award",
+      "date": "2026-11",
+      "awarder": "TCC 2026",
+      "summary": "For \"A Complexity Theoretic Approach to Proofs of Space\" (with Marshall Ball)"
+    },
+    {
+      "title": "Bug of the Month",
+      "date": "2026-03",
+      "awarder": "Zellic",
+      "summary": "For a selective failure attack against a production PIR implementation"
+    },
+    {
+      "title": "Bug of the Month",
+      "date": "2026-01",
+      "awarder": "Zellic",
+      "summary": "For a critical MPC/BFT soundness vulnerability"
+    }
+  ],
   "teaching experience": [{}],
   "work": [
     {
@@ -287,8 +312,10 @@
       "url": "https://www.zellic.io",
       "startDate": "2025-06-16",
       "endDate": "Present",
-      "summary": "Audit and research cutting-edge cryptographic protocols and blockchain systems.",
-      "highlights": []
+      "summary": "",
+      "highlights": ["Perform adversarial security audits of various cryptographic protocols and blockchain systems under realistic threat models, identifying exploitable flaws that arise from implementation bugs, specification gaps, and unsafe trust assumptions.",
+                     "Conduct original research on cryptographic primitives and protocol security, applying formal methods and rigorous analysis to reason about system security, robustness, and potential attack vectors.",
+                     "Received two company-wide \"Bug of the Month\" awards for vulnerabilities discovered during client audits: a critical MPC/BFT soundness vulnerability (Jan. 2026) and a selective failure attack against a production PIR implementation (Mar. 2026)."]
     },
     {
       "name": "Courant Institute of Mathematical Sciences, New York University",
@@ -296,36 +323,37 @@
       "url": "https://cims.nyu.edu",
       "startDate": "2023-09-01",
       "endDate": "2025-06-13",
-      "summary": "Taught the undergraduate algorithms course and conducted research on various areas of cryptography.",
-      "highlights": []
-    },
-    {
-      "name": "NTT Research Inc.",
-      "position": "Research Intern",
-      "url": "https://ntt-research.com/cis/",
-      "startDate": "2019-10-01",
-      "endDate": "2021-05-01",
-      "summary": "Conducted research on Incompressible Cryptography and other various topics on cryptography.",
-      "highlights": []
-    },
-    {
-      "name": "Fujitsu Laboratories of America Inc.",
-      "position": "Summer Research Intern",
-      "url": "https://www.fujitsu.com/us/about/businesspolicy/tech/rd/",
-      "startDate": "2020-05-31",
-      "endDate": "2020-08-31",
-      "summary": "Conducted research on Memory Hard Functions.",
-      "highlights": []
-    },
-    {
-      "name": "Keybase Inc.",
-      "position": "Software Engineering Intern",
-      "url": "https://www.keybase.io",
-      "startDate": "2016-07-01",
-      "endDate": "2016-09-04",
-      "summary": "Implemented a keyword search scheme for encrypted data on Keybase File System.",
-      "highlights": []
-    },
+      "summary": "",
+      "highlights": ["Taught a high-enrollment section of <i>Basic Algorithms</i> as primary instructor, focusing on formal reasoning about correctness and computational complexity of algorithms.",
+                     "Published original research at top cryptography venues (CRYPTO, TCC) on information-theoretic cryptography, functional encryption, and sequential functions."]
+    }
+    // {
+    //   "name": "NTT Research Inc.",
+    //   "position": "Research Intern",
+    //   "url": "https://ntt-research.com/cis/",
+    //   "startDate": "2019-10-01",
+    //   "endDate": "2021-05-01",
+    //   "summary": "Conducted research on Incompressible Cryptography and other various topics on cryptography.",
+    //   "highlights": []
+    // },
+    // {
+    //   "name": "Fujitsu Laboratories of America Inc.",
+    //   "position": "Summer Research Intern",
+    //   "url": "https://www.fujitsu.com/us/about/businesspolicy/tech/rd/",
+    //   "startDate": "2020-05-31",
+    //   "endDate": "2020-08-31",
+    //   "summary": "Conducted research on Memory Hard Functions.",
+    //   "highlights": []
+    // },
+    // {
+    //   "name": "Keybase Inc.",
+    //   "position": "Software Engineering Intern",
+    //   "url": "https://www.keybase.io",
+    //   "startDate": "2016-07-01",
+    //   "endDate": "2016-09-04",
+    //   "summary": "Implemented a keyword search scheme for encrypted data on Keybase File System.",
+    //   "highlights": []
+    // },
     /*{
       "name": "Computer Science Department, Stanford University",
       "position": "Senior Section Leader",
@@ -335,14 +363,26 @@
       "summary": "Assisted instructors for introductory Java and C++ programming courses through grading, leading bi-weekly helper sessions, and teaching weekly sections.",
       "highlights": []
     },*/
+    // {
+    //   "name": "Google Inc.",
+    //   "position": "Software Engineering Intern",
+    //   "url": "https://www.google.com",
+    //   "startDate": "2015-06-01",
+    //   "endDate": "2015-09-01",
+    //   "summary": "Worked on the Technical Infrastructure team to provide user data protection by implementing tools that give health analysis feedbacks for security policies.",
+    //   "highlights": []
+    // }
+  ],
+  "skills": [
     {
-      "name": "Google Inc.",
-      "position": "Software Engineering Intern",
-      "url": "https://www.google.com",
-      "startDate": "2015-06-01",
-      "endDate": "2015-09-01",
-      "summary": "Worked on the Technical Infrastructure team to provide user data protection by implementing tools that give health analysis feedbacks for security policies.",
-      "highlights": []
+      "name": "Programming",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "Rust", "C++", "C", "Go"]
+    },
+    {
+      "name": "Tools",
+      "icon": "fa-solid fa-toolbox",
+      "keywords": ["PyTorch", "NumPy", "Docker", "React"]
     }
   ],
   "languages": [
