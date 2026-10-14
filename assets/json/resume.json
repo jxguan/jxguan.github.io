@@ -313,9 +313,11 @@
       "startDate": "2025-06-16",
       "endDate": "Present",
       "summary": "",
-      "highlights": ["Perform adversarial security audits of various cryptographic protocols and blockchain systems under realistic threat models, identifying exploitable flaws that arise from implementation bugs, specification gaps, and unsafe trust assumptions.",
-                     "Conduct original research on cryptographic primitives and protocol security, applying formal methods and rigorous analysis to reason about system security, robustness, and potential attack vectors.",
-                     "Received two company-wide \"Bug of the Month\" awards for vulnerabilities discovered during client audits: a critical MPC/BFT soundness vulnerability (Jan. 2026) and a selective failure attack against a production PIR implementation (Mar. 2026)."]
+      "highlights": [
+        "Perform adversarial security audits of various cryptographic protocols and blockchain systems under realistic threat models, identifying exploitable flaws that arise from implementation bugs, specification gaps, and unsafe trust assumptions.",
+        "Conduct original research on cryptographic primitives and protocol security, applying formal methods and rigorous analysis to reason about system security, robustness, and potential attack vectors.",
+        "Received two company-wide \"Bug of the Month\" awards for vulnerabilities discovered during client audits: a critical MPC/BFT soundness vulnerability (Jan. 2026) and a selective failure attack against a production PIR implementation (Mar. 2026)."
+      ]
     },
     {
       "name": "Courant Institute of Mathematical Sciences, New York University",
@@ -324,8 +326,10 @@
       "startDate": "2023-09-01",
       "endDate": "2025-06-13",
       "summary": "",
-      "highlights": ["Taught a high-enrollment section of <i>Basic Algorithms</i> as primary instructor, focusing on formal reasoning about correctness and computational complexity of algorithms.",
-                     "Published original research at top cryptography venues (CRYPTO, TCC) on information-theoretic cryptography, functional encryption, and sequential functions."]
+      "highlights": [
+        "Taught a high-enrollment section of <i>Basic Algorithms</i> as primary instructor, focusing on formal reasoning about correctness and computational complexity of algorithms.",
+        "Published original research at top cryptography venues (CRYPTO, TCC) on information-theoretic cryptography, functional encryption, and sequential functions."
+      ]
     }
     // {
     //   "name": "NTT Research Inc.",
