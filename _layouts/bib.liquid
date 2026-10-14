@@ -136,7 +136,12 @@
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
 
     {% if entry.conference %}
-      {% capture entrytype %}<em>In <b> {{entry.conference}} </b> </em> {% endcapture %}
+      {% capture conference_name %}{{ entry.conference }}{% if entry.year %} {{ entry.year }}{% endif %}{% endcapture %}
+      {% if entry.conference_url %}
+        {% capture entrytype %}In <b><a href="{{ entry.conference_url }}">{{ conference_name }}</a></b>{% endcapture %}
+      {% else %}
+        {% capture entrytype %}In <b>{{ conference_name }}</b>{% endcapture %}
+      {% endif %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>Ph.D. Dissertation</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
@@ -146,9 +151,6 @@
     {% endif %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
-    {% endif %}
-    {% if entry.year && entry.conference %}
-      {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{entrytype}}{{ ", " }}{{entry.location}}{% endcapture %}
@@ -160,13 +162,10 @@
     {% if hook_exists == 'true' %}
       {% include hook/bib.liquid %}
     {% endif %}
-    {% assign entrytype_text = entrytype | strip_html | strip %}
     {% if entry.conference %}
-      {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
-    {% elsif thesis contains entry.type %}
-      {% capture periodical %}{{ entrytype }}{% endcapture %}
+      {% capture periodical %}{{ entrytype }}{% if entry.month %}, {{ entrymonth | strip }}{% endif %}{% if entry.award %} <b>({{ entry.award }})</b>{% endif %}{% endcapture %}
     {% else %}
-      {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {{ entrymonth }}{{ entryyear }} {% endif %} {% endcapture %}
+      {% capture periodical %}{{ entrytype }}{% endcapture %}
     {% endif %}
     <div class="periodical">
       {{ periodical | strip }}
@@ -174,9 +173,6 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
-    {% if entry.award %}
-      <div class="periodical award-line">{{ entry.award }}</div>
-    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">

@@ -352,6 +352,7 @@ filtered_bibtex_keywords:
     website,
     eprint,
     conference,
+    conference_url,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)

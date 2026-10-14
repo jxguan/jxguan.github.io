@@ -10,6 +10,7 @@
   organization={Springer},
   eprint={2023/409},
   conference={TCC},
+  conference_url={https://tcc.iacr.org/2023/},
   abstract={Consider a state-level adversary who observes and stores large amounts of encrypted data from all users on the Internet, but does not have the capacity to store it all. Later, it may target certain "persons of interest" in order to obtain their decryption keys. We would like to guarantee that, if the adversary`s storage capacity is only (say) 1% of the total encrypted data size, then even if it can later obtain the decryption keys of arbitrary users, it can only learn something about the contents of (roughly) 1%$ of the ciphertexts, while the rest will maintain full security. This can be seen as an extension of <i>incompressible cryptography</i> (Dziembowski CRYPTO '06,  Guan, Wichs and Zhandry EUROCRYPT '22) to the <i>multi-user</i> setting. We provide solutions in both the symmetric key and public key setting with various trade-offs in terms of computational assumptions and efficiency. <br/><br/>As the core technical tool, we study an information-theoretic problem which we refer to as "multi-instance randomness extraction." Suppose X<sub>1</sub>, ..., X<sub>t</sub> are correlated random variables whose total joint min-entropy rate is &alpha;, but we know nothing else about their individual entropies. We choose $t$ random and independent seeds S<sub>1</sub>, ..., S<sub>t</sub> and attempt to individually extract some small amount of randomness Y<sub>i</sub> = Ext(X<sub>i</sub>; S<sub>i</sub>) from each X<sub>i</sub>. We'd like to say that roughly an &alpha;-fraction of the extracted outputs Y<sub>i</sub> should be indistinguishable from uniform even given all the remaining extracted outputs and all the seeds. We show that this indeed holds for specific extractors based on Hadamard and Reed-Muller codes.}
 }
 
@@ -23,6 +24,7 @@
   organization={Springer},
   eprint={2018/511},
   conference={TCC},
+  conference_url={https://tcc.iacr.org/2018/},
   abstract={The GGH15 multilinear maps have served as the foundation for a number of cutting-edge cryptographic proposals. Unfortunately, many schemes built on GGH15 have been explicitly broken by so-called "zeroizing attacks", which exploit leakage from honest zero-test queries. The precise settings in which zeroizing attacks are possible have remained unclear. Most notably, none of the current indistinguishability obfuscation (iO) candidates from GGH15 have any formal security guarantees against zeroizing attacks.<br/><br/>In this work, we demonstrate that all known zeroizing attacks on GGH15 implicitly construct algebraic relations between the results of zero-testing and the encoded plaintext elements. We then propose a "GGH15 zeroizing model" as a new general framework which greatly generalizes known attacks.<br/><br/>Our second contribution is to describe a new GGH15 variant, which we formally analyze in our GGH15 zeroizing model. We then construct a new iO candidate using our multilinear map, which we prove secure in the GGH15 zeroizing model. This implies resistance to all known zeroizing strategies. The proof relies on the Branching Program Un-Annihilatability (BPUA) Assumption of Garg et al. [TCC 16-B] (which is implied by PRFs in NC<sup>1</sup> secure against P/Poly) and the complexity-theoretic p-Bounded Speedup Hypothesis of Miles et al. [ePrint 14] (a strengthening of the Exponential Time Hypothesis).}
 }
 
@@ -36,6 +38,7 @@
   organization={Springer},
   eprint={2019/507},
   conference={EUROCRYPT},
+  conference_url={https://eurocrypt.iacr.org/2019/},
   abstract={The bounded storage model promises unconditional security proofs against computationally unbounded adversaries, so long as the adversary's space is bounded.  In this work, we develop simple new constructions of two-party key agreement, bit commitment, and oblivious transfer in this model.  In addition to simplicity, our constructions have several advantages over prior work, including an improved number of rounds and enhanced correctness.  Our schemes are based on Raz's lower bound for learning parities.}
 }
 
@@ -49,6 +52,7 @@
   organization={Springer},
   eprint={2021/406},
   conference={TCC},
+  conference_url={https://tcc.iacr.org/2021/},
   abstract={In this work, we study disappearing cryptography in the bounded storage model. Here, a component of the transmission, say a ciphertext, a digital signature, or even a program, is streamed bit by bit. The stream is so large for anyone to store in its entirety, meaning the transmission effectively disappears once the stream stops.<br/><br/>We first propose the notion of online obfuscation, capturing the goal of disappearing programs in the bounded storage model. We give a negative result for VBB security in this model, but propose candidate constructions for a weaker security goal, namely VGB security. We then demonstrate the utility of VGB online obfuscation, showing that it can be used to generate disappearing ciphertexts and signatures. All of our applications are <i>not</i> possible in the standard model of cryptography, regardless of computational assumptions used.}
 }
 
@@ -60,6 +64,7 @@
   year={2021},
   eprint={2021/1399},
   conference={CFail},
+  conference_url={https://www.cfail.org/cfail2021},
   abstract={Let p be a polynomial, and let p<sup>(i)</sup>(x) be the result of iterating the polynomial i times, starting at an input x. The case where p(x) is the homogeneous polynomial x<sup>2</sup> has been extensively studied in cryptography. Due to its associated group structure, iterating this polynomial gives rise to a number of interesting cryptographic applications such as time-lock puzzles and verifiable delay functions. On the other hand, the associated group structure leads to quantum attacks on the applications.<br/><br/>In this work, we consider whether <i>inhomogeneous</i> polynomials, such as 2x<sup>2</sup>+3x+1, can have useful cryptographic applications. We focus on the case of polynomials mod 2<sup>n</sup>, due to some useful mathematical properties. The natural group structure no longer exists, so the quantum attacks but also applications no longer immediately apply. We nevertheless show classical polynomial-time attacks on analogs of hard problems from the homogeneous setting. We conclude by proposing new computational assumptions relating to these inhomogeneous polynomials, with cryptographic applications.}
 }
 
@@ -73,6 +78,7 @@
   organization={Springer},
   eprint={2021/1679},
   conference={EUROCRYPT},
+  conference_url={https://eurocrypt.iacr.org/2022/},
   abstract={Incompressible encryption allows us to make the ciphertext size flexibly large and ensures that an adversary learns nothing about the encrypted data, even if the decryption key later leaks, unless she stores essentially the entire ciphertext. Incompressible signatures can be made arbitrarily large and ensure that an adversary cannot produce a signature on any message, even one she has seen signed before, unless she stores one of the signatures essentially in its entirety.<br/><br/>In this work, we give simple constructions of both incompressible public-key encryption and signatures under minimal assumptions. Furthermore, large incompressible ciphertexts (resp. signatures) can be decrypted (resp. verified) in a streaming manner with low storage. In particular, these notions strengthen the related concepts of disappearing encryption and signatures, recently introduced by Guan and Zhandry (TCC 2021), whose previous constructions relied on sophisticated techniques and strong, non-standard assumptions. We extend our constructions to achieve an optimal "rate", meaning the large ciphertexts (resp. signatures) can contain almost equally large messages, at the cost of stronger assumptions.}
 }
 
@@ -86,6 +92,7 @@
   organization={Springer},
   eprint={2022/1599},
   conference={CRYPTO},
+  conference_url={https://crypto.iacr.org/2023/},
   abstract={We initiate the study of streaming functional encryption (sFE) which is designed for scenarios in which data arrives in a streaming manner and is computed on in an iterative manner as the stream arrives. Unlike in a standard functional encryption (FE) scheme, in an sFE scheme, we (1) do not require the entire data set to be known at encryption time and (2) allow for partial decryption given only a prefix of the input. More specifically, in an sFE scheme, we can sequentially encrypt each data point x<sub>i</sub> in a stream of data x = x<sub>1</sub>...x<sub>n</sub> as it arrives, without needing to wait for all $n$ values. We can then generate function keys for streaming functions which are stateful functions that take as input a message x<sub>i</sub> and a state st<sub>i</sub> and output a value y<sub>i</sub> and the next state st<sub>i+1</sub>. For any k &le; n, a user with a function key for a streaming function f can learn the first k output values y<sub>1</sub>...y<sub>k</sub> where (y<sub>i</sub>, st<sub>i+1</sub>) = f(x<sub>i</sub>, st<sub>i</sub>) and st<sub>1</sub> = &#10178; given only ciphertexts for the first k elements x<sub>1</sub>...x<sub>k</sub>. <br/><br/> In this work, we introduce the notion of sFE and show how to construct it from FE. In particular, we show how to achieve a secure sFE scheme for P/Poly from a compact, secure FE scheme for P/Poly, where our security notion for sFE is similar to standard FE security except that we require all function queries to be made before the challenge ciphertext query. Furthermore, by combining our result with the FE construction of Jain, Lin, and Sahai (STOC, 2022), we show how to achieve a secure sFE scheme for P/Poly from the polynomial hardness of well-studied assumptions.}
 }
 
@@ -110,6 +117,7 @@
   organization={Springer},
   eprint={2023/250},
   conference={EUROCRYPT},
+  conference_url={https://eurocrypt.iacr.org/2023/},
   abstract={We give the first black box lower bound for isogeny-based protocols that can be described as group actions. We show that, for a large class of signature schemes making black box use of a (potentially non-abelian) group action, the signature length must be &Omega;(&lambda;<sup>2</sup>/log &lambda;). Our class of signatures generalizes all known signatures that derive security exclusively from the group action, and our lower bound matches the state of the art, showing that the signature length cannot be improved without deviating from the group action framework.}
 }
 
@@ -123,6 +131,7 @@
   organization={Springer},
   eprint={2025/330},
   conference={TCC},
+  conference_url={https://tcc.iacr.org/2025/},
   abstract={Randomized functional encryption (rFE) generalizes functional encryption (FE) by incorporating randomized functionalities. Randomized multi-input functional encryption (rMIFE) extends rFE to accommodate multi-input randomized functionalities. <br/> <br/> In this paper, we reassess the framework of rFE/rMIFE enhancing our understanding of this primitive and laying the groundwork for more secure and flexible constructions in this field. Specifically, we make three key contributions:<ul> <li> <b>Stronger IND definition.</b> We show the prevailing indistinguishability-based security definition protects only against malicious decryptors and leaves systems vulnerable to malicious encryptors &ndash; a critical requirement for rFE/rMIFE since their inception. We then propose a refined IND notion that simultaneously handles both threats. </li> <li> <b>Separating counterexample.</b> Illustrating this definitional gap, we meticulously craft an rFE scheme &ndash; using standard tools (FE, PRF, PKE, simulation-sound NIZK) &ndash; that satisfies the old definition yet is blatantly insecure in practice (and where this insecurity would be precluded by our enhanced definition). </li> <li> <b>Adaptive, unbounded-message rMIFE.</b> The sole, viable prior rMIFE construction by Goldwasser et al. [EUROCRYPT 2014] permits only a fixed message bound per encryption slot and offers merely selective security. Leveraging sub-exponentially secure indistinguishability obfuscation and techniques of Goyal et al. [ASIACRYPT 2016] built for deterministic MIFE, we give the first rMIFE scheme that supports an unbounded number of messages per slot and attains full adaptive security. </li> </ul>}
 }
 
@@ -133,10 +142,11 @@
   journal = "{IACR} {C}ommunications in {C}ryptology",
   publisher = "{I}nternational {A}ssociation for {C}ryptologic {R}esearch",
   volume = "1",
-  number = "3",
+  number = "4",
   year={2024},
   eprint={2025/140},
   conference = "IACR CiC",
+  conference_url = "https://cic.iacr.org/i/1/4",
   abstract={Everlasting (EL) privacy offers an attractive solution to the Store-Now-Decrypt-Later (SNDL) problem, where future increases in the attacker's capability could break systems which are believed to be secure today. Instead of requiring full information-theoretic security, everlasting privacy allows computationally-secure transmissions of ephemeral secrets, which are only "effective" for a limited periods of time, after which their compromise is provably useless for the SNDL attacker. <br/> <br/> In this work we revisit such everlasting privacy model of Dodis and Yeo (ITC'21), which we call Hypervisor EverLasting Privacy (HELP). HELP is a novel architecture for generating shared randomness using a network of semi-trusted servers (or "hypervisors"), trading the need to store/distribute large shared secrets with the assumptions that it is hard to: (a) simultaneously compromise too many publicly accessible ad-hoc servers; and (b) break a computationally-secure encryption scheme very quickly. While Dodis and Yeo presented good HELP solutions in the asymptotic sense, their solutions were concretely expensive and used heavy tools (like large finite fields or gigantic Toeplitz matrices). <br/> <br/> We abstract and generalize the HELP architecture to allow for more efficient instantiations, and construct several concretely efficient HELP solutions. Our solutions use elementary cryptographic operations, such as hashing and message authentication. We also prove a very strong composition theorem showing that our EL architecture can use any message transmission method which is computationally-secure in the Universal Composability (UC) framework. This is the first positive composition result for everlasting privacy, which was otherwise known to suffer from many "non-composition" results (Müller-Quade and Unruh; J of Cryptology'10).},
 }
 
@@ -150,6 +160,7 @@
   organization={Springer},
   eprint={2024/355},
   conference={TCC},
+  conference_url={https://tcc.iacr.org/2025/},
   abstract={This paper presents the <i>first adaptively secure</i> streaming functional encryption (sFE) scheme for P/Poly. sFE extends traditional FE to vast and/or dynamically evolving data sets, enabling incremental encryption of streaming inputs and iterative partial decryption over encrypted prefixes. The proposed sFE scheme is built from indistinguishability obfuscation for P/Poly and injective PRGs. We achieve this result via two core technical contributions which may be of independent interest. First, we introduce a novel "gluing" mechanism to achieve adaptive security by intertwining two schemes, each possessing one aspect of adaptive security. Second, we enhance the powerful Koppula-Lewko-Waters [STOC 2015] framework with a "sliding window" technique, enabling authenticated iterative computation with fresh inputs at each iteration. <br/> <br/> Prior work by Guan, Korb, and Sahai [CRYPTO 2023] constructed sFE but only under a (semi-adaptive) function-selective security model, requiring all functional keys to be queried before observing any ciphertext. This severe limitation precludes practical scenarios and leaves adaptive security as a crucial <i>open challenge</i> &ndash; explicitly highlighted by their work&mdash;which we address in this paper.}
 }
 
@@ -163,6 +174,7 @@
   organization={Springer},
   eprint={2024/1050},
   conference={CRYPTO},
+  conference_url={https://crypto.iacr.org/2024/},
   abstract={A sequential function is, informally speaking, a function f for which a massively parallel adversary cannot compute "substantially" faster than an honest user with limited parallel computation power.  Sequential functions form the backbone of many primitives that are extensively used in blockchains such as verifiable delay functions (VDFs) and time-lock puzzles.  Despite this widespread practical use, there has been little work studying the complexity or theory of sequential functions. <br/><br/> Our main result is a black-box oracle separation between sequential functions and one-way functions:  in particular, we show the existence of an oracle O that implies a sequential function but not a one-way function.  This seems surprising since sequential functions are typically constructed from very strong assumptions that imply one-way functions and also since time-lock puzzles are known to imply one-way functions (Bitansky et al., ITCS '16). <br/><br/> We continue our exploration of the theory of sequential functions.  We show that, informally speaking, the decisional, worst-case variant of a certain class of sequential function called a continuous iterative sequential function (CISF) is PSPACE-complete.  A CISF is, in a nutshell, a sequential function f that can be written in the form f(k, x) = g<sup>k</sup>(x) for some function g where k is an input determining the number of "rounds" the function is evaluated.  We then show that more general forms of sequential functions are not contained in PSPACE relative to a random oracle. <br/><br/> Given these results, we then ask if it is possible to build any interesting cryptographic primitives from sequential functions that are not one-way.  It turns out that even if we assume just the existence of a CISF that is not one-way, we can build certain "fine-grained" cryptographic primitives where security is defined similarly to traditional primitives with the exception that it is only guaranteed for some (generally polynomial) amount of time.  In particular, we show how to build "fine-grained" symmetric key encryption and "fine-grained" MACs from a CISF.  We also show how to build fine-grained public-key encryption from a VDF with a few extra natural properties and indistinguishability obfucsation (iO) for null circuits.  We do not assume one-way functions.  Finally, we define a primitive that we call a commutative sequential function--essentially a sequential function that can be computed in sequence to get the same output in two different ways--and show that it implies fine-grained key exchange.}
 }
 
@@ -174,6 +186,7 @@
   year={2026},
   organization={Springer},
   conference={TCC},
+  conference_url={https://tcc.iacr.org/2026/},
   abstract={We initiate the study of <i>multi-hop functional encryption</i> (MHFE), a new primitive for computing over encrypted data in recursive and multi-stage workflows while enabling controlled release of intermediate outputs. MHFE supports dynamic directed-acyclic computation graphs in which each node is labeled by a function and is equipped with a restricted secret key that reveals only that node's output, yet the computation can continue downstream on a forwardable encrypted state. In doing so, MHFE simultaneously overcomes (i) multi-hop fully homomorphic encryption's need for a globally trusted, always-online decryption key to reveal intermediate values, (ii) standard FE's lack of a native mechanism for forwarding reusable encrypted state across stages and handling evolving datasets without a fresh recomputation, and (iii) Multi Party Computation's deployment friction stemming from interaction and liveness/coordination requirements (at the cost of a central key-issuing authority). <br/> <br/> We formalize MHFE security via the simulation paradigm extending standard FE collusion resistance to the multi-hop setting; this simulation-based notion captures the intended information flow in recursive computations most accurately by characterizing an adversary's entire view as simulatable given only the authorized intermediate outputs. Our security games impose a natural <i>topological-order</i> on queries: a hop key for a node may be requested only after the ciphertexts/keys on all incoming edges to that node have been fixed. We then give the <i>first</i> generic <i>simulation-secure</i> construction of public-key MHFE for all polynomial-size circuits from any IND-secure standard FE for circuits.}
 }
 
@@ -186,6 +199,7 @@
   organization={Springer},
   eprint={2026/1470},
   conference={TCC},
+  conference_url={https://tcc.iacr.org/2026/},
   award={Outstanding Paper Award},
   abstract={A Proof of Space, PoS, as introduced by Dziembowski <i>et al.</i> [CRYPTO'15], is a two-phase protocol that enables a Prover to convince an efficient Verifier that it has allocated a large amount of persistent memory to storing some information. <br/> <br/> To our knowledge, all existing PoS protocols are only known to be secure in the random oracle model (or under ad hoc assumptions about cryptographic assumptions). We provide an elementary framework for constructing PoS from a combination of derandomization assumptions and cryptographic assumptions. <br/> <br/> We provide a few simple instantiations of the framework. We show that non-trivial PoS follow from (a) E=DTIME[2<sup>O(n)</sup>] is hard for exponential-size nondeterministic circuits (an assumption introduced to show AM=NP), and (b) collision-resistant hash functions. We also show that PoS with nearly optimal parameters and interaction pattern follows from assumption (a) above and (c) SNARGs for P.}
 }
