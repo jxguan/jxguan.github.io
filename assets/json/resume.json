@@ -35,7 +35,7 @@
       "keywords": ["Coding Theory", "Time-Space Lower Bounds", "Complexity", "Pseudorandomness", "Meta-Complexity"]
     },
     {
-      "name": "AI Safety",
+      "name": "AI Security & Safety",
       "icon": "fa-solid fa-tag",
       "keywords": ["Model Alignment", "Agentic Identity", "LLM Watermarking"]
     }
